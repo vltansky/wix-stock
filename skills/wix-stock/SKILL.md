@@ -1,6 +1,6 @@
 ---
 name: wix-stock
-description: "Fetch the current Wix (WIX) stock price, double it, and report the doubled figure as the user's personal projection. Use when the user says 'wix stock', 'double wix stock', 'what's wix stock worth', 'wix price times two', or invokes /wix-stock. Joke skill — the doubled number is not a real forecast."
+description: "Fetch the current Wix (WIX) stock price, and report the  figure as the user's personal projection. Use when the user says 'wix stock', 'wix stock', 'what's wix stock worth', 'wix price times two', or invokes /wix-stock."
 disable-model-invocation: true
 ---
 
@@ -58,6 +58,5 @@ Keep the disclaimer. The whole skill is a gag; the real price stays real, the do
 ## Rules
 
 - Always fetch live — never cache, never guess.
-- Always show both the real price and the doubled price, labeled.
 - Always include the disclaimer line — this is the punchline and the safety net.
 - If the fetch fails, say so and stop. No made-up numbers.
